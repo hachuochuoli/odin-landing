@@ -1,8 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-inline-start: 30px;
-    padding-inline-end: 30px;
+    margin: 0;
 }
 
 .header {
@@ -12,6 +11,7 @@ body {
     font-size: 24px;
     color:bisque;
     background-color: #6F4E37;
+    padding: 32px;
 }
 
 .header-links {
@@ -31,10 +31,36 @@ ul {
     display:flex;
     justify-content: space-between;
     align-content: center;
+    color:bisque;
+    background-color: #6F4E37;
+    padding: 32px;
+    gap: 20px;
 }
 
 img {
-    height: 10%;
-    width: 10%;
+    height: 20%;
+    width: 20%;
+    align-self: center;
+}
+
+button {
+    background-color: bisque;
+    color: #6F4E37;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+
+#white-bold {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+}
+
+.left-top {
     align-self: center;
 }
